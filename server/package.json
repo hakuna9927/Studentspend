@@ -4,6 +4,7 @@
   "description": "StudentSpend backend API",
   "main": "server.js",
   "scripts": {
+    "build": "node -e \"console.log('StudentSpend server is ready to run')\"",
     "dev": "nodemon server.js",
     "start": "node server.js"
   },
