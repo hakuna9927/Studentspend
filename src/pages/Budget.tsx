@@ -56,7 +56,7 @@ export function BudgetPage() {
       }
 
       // Har user ki alag key
-      const key = `finpilot_budget_${user.id}`;
+      const key = `StudentSpend_budget_${user.id}`;
 
       const savedBudget =
         localStorage.getItem(key) ??
@@ -121,7 +121,7 @@ export function BudgetPage() {
       }
 
       const API_URL =
-  'https://finpilot-backend-23iz.onrender.com';
+  'https://StudentSpend-backend-23iz.onrender.com';
 
 const res = await fetch(
   `${API_URL}/api/transactions?userId=${encodeURIComponent(user.id)}`
@@ -271,7 +271,7 @@ setCategories(breakdown);
       // IMPORTANT:
       // Har user ki separate budget key
       const key =
-        `finpilot_budget_${user.id}`;
+        `StudentSpend_budget_${user.id}`;
 
       localStorage.setItem(
         key,

@@ -448,7 +448,7 @@ export function GoalsPage() {
       */
 
       const storageKey =
-        `finpilot_goals_${currentUserId}`;
+        `StudentSpend_goals_${currentUserId}`;
 
       const stored =
         localStorage.getItem(storageKey) ??
@@ -522,7 +522,7 @@ export function GoalsPage() {
 
     try {
       const storageKey =
-        `finpilot_goals_${userId}`;
+        `StudentSpend_goals_${userId}`;
 
       localStorage.setItem(
         storageKey,

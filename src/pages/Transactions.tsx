@@ -32,7 +32,7 @@ import {
 ============================================================ */
 
 const API_BASE =
-  "https://finpilot-backend-23iz.onrender.com/api";
+  "https://StudentSpend-backend-23iz.onrender.com/api";
 
 /* ============================================================
    TYPES
@@ -1374,7 +1374,7 @@ export function TransactionsPage() {
   useState<SelectedPeriod>(() => {
     try {
       const saved = localStorage.getItem(
-        'finpilot_selected_period'
+        'StudentSpend_selected_period'
       );
 
       if (saved) {
@@ -1411,7 +1411,7 @@ export function TransactionsPage() {
 
   useEffect(() => {
     localStorage.setItem(
-      "finpilot_selected_period",
+      "StudentSpend_selected_period",
       JSON.stringify(selectedPeriod)
     );
   }, [selectedPeriod]);

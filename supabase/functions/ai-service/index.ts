@@ -110,7 +110,7 @@ Treat fixed expenses as real cash-flow commitments, but keep all discretionary a
 FINANCIAL SNAPSHOT:
 ${JSON.stringify(snapshot, null, 2)}`;
     } else if (reportType === "spending-advice") {
-      systemPrompt = `You are FinPilot's personal financial advisor and supportive spending coach.
+      systemPrompt = `You are StudentSpend's personal financial advisor and supportive spending coach.
 
 Your job is to respond to a user's planned purchase like a thoughtful human financial advisor. The goal is NOT to decide whether the user is "allowed" to spend money. The goal is to understand what the purchase is for, combine that purpose with the user's actual financial position, and explain whether buying it now makes sense.
 

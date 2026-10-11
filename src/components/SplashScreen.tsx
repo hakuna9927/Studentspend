@@ -59,7 +59,7 @@ export function SplashScreen({ onFinish }: SplashScreenProps) {
         <div className="mt-8 text-center animate-[splashText_1s_0.5s_ease-out_both]">
 
           <h1 className="text-4xl font-black tracking-[0.18em] text-white">
-            FINPILOT
+            StudentSpend
           </h1>
 
           <div className="mx-auto mt-3 h-[2px] w-16 rounded-full bg-gradient-to-r from-transparent via-emerald-400 to-transparent" />

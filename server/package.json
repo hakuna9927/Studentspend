@@ -1,7 +1,7 @@
 {
-  "name": "finpilot-server",
+  "name": "StudentSpend-server",
   "version": "1.0.0",
-  "description": "FinPilot backend API",
+  "description": "StudentSpend backend API",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",

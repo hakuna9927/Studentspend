@@ -26,7 +26,7 @@ import { supabase } from "@/lib/supabase";
 ============================================================ */
 
 const API_BASE =
-  "https://finpilot-backend-23iz.onrender.com/api";
+  "https://StudentSpend-backend-23iz.onrender.com/api";
 
 /* ============================================================
    TYPES

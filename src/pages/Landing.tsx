@@ -50,7 +50,7 @@ export function LandingPage() {
             </div>
 
             <span className="text-white font-bold text-lg tracking-tight">
-              FINPILOT
+              StudentSpend
             </span>
 
           </div>
@@ -146,7 +146,7 @@ export function LandingPage() {
                 </h1>
 
                 <p className="text-lg text-gray-400 max-w-xl leading-relaxed">
-                  FINPILOT transforms your everyday financial activity into
+                  StudentSpend transforms your everyday financial activity into
                   clear insights, smarter recommendations, better budgeting,
                   and goal-focused decisions.
                 </p>
@@ -235,7 +235,7 @@ export function LandingPage() {
                       <Sparkles className="w-4 h-4 text-emerald-400" />
 
                       <span className="text-xs uppercase tracking-wider text-emerald-400 font-semibold">
-                        FINPILOT INTELLIGENCE
+                        StudentSpend INTELLIGENCE
                       </span>
 
                     </div>
@@ -297,7 +297,7 @@ export function LandingPage() {
               </h2>
 
               <p className="text-gray-500 mt-4 max-w-2xl mx-auto">
-                FINPILOT connects your spending, budget, goals and financial
+                StudentSpend connects your spending, budget, goals and financial
                 decisions into one simple system.
               </p>
 
@@ -363,7 +363,7 @@ export function LandingPage() {
               <StepCard
                 number="01"
                 title="Track"
-                description="Add your income and expenses so FINPILOT understands your financial activity."
+                description="Add your income and expenses so StudentSpend understands your financial activity."
               />
 
               <StepCard
@@ -408,7 +408,7 @@ export function LandingPage() {
               </h2>
 
               <p className="text-gray-500 mt-4 max-w-xl mx-auto">
-                FINPILOT helps you understand how today's spending can affect
+                StudentSpend helps you understand how today's spending can affect
                 the goals you're working toward.
               </p>
 
@@ -463,7 +463,7 @@ export function LandingPage() {
                 </h2>
 
                 <p className="text-gray-500 max-w-xl mx-auto mt-4 leading-relaxed">
-                  FINPILOT is designed to turn financial information into
+                  StudentSpend is designed to turn financial information into
                   understandable signals instead of overwhelming numbers.
                 </p>
 
@@ -506,7 +506,7 @@ export function LandingPage() {
               </h2>
 
               <p className="text-gray-500 mt-5 max-w-lg mx-auto">
-                Start using FINPILOT to understand your finances and make
+                Start using StudentSpend to understand your finances and make
                 smarter decisions.
               </p>
 
@@ -514,7 +514,7 @@ export function LandingPage() {
                 to="/login"
                 className="inline-flex items-center gap-2 mt-8 px-7 py-4 rounded-xl bg-emerald-400 text-[#050505] font-bold hover:bg-emerald-300 transition-all glow-emerald"
               >
-                Enter FINPILOT
+                Enter StudentSpend
                 <ArrowRight className="w-5 h-5" />
               </Link>
 
@@ -546,7 +546,7 @@ export function LandingPage() {
             </div>
 
             <span className="text-white font-bold">
-              FINPILOT
+              StudentSpend
             </span>
 
           </div>

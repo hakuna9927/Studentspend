@@ -19,7 +19,7 @@ interface MonthSelectorProps {
 function getInitialPeriod(): SelectedPeriod {
   try {
     const saved = localStorage.getItem(
-      'finpilot_selected_period'
+      'StudentSpend_selected_period'
     );
 
     if (saved) {
@@ -56,7 +56,7 @@ function getInitialPeriod(): SelectedPeriod {
 
 function savePeriod(period: SelectedPeriod) {
   localStorage.setItem(
-    'finpilot_selected_period',
+    'StudentSpend_selected_period',
     JSON.stringify(period)
   );
 }

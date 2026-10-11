@@ -23,7 +23,7 @@ type Loan = {
   status: 'pending' | 'partially_paid' | 'paid';
 };
 
-const STORAGE_KEY_PREFIX = 'finpilot_loans';
+const STORAGE_KEY_PREFIX = 'StudentSpend_loans';
 const LEGACY_STORAGE_KEY_PREFIX = 'smartspend_loans';
 
 function isLoan(value: unknown): value is Loan {
@@ -106,7 +106,7 @@ export function LoansPage() {
           setStorageKey(key);
         }
 
-        // Prefer the current FinPilot key, but migrate old SmartSpend data
+        // Prefer the current StudentSpend key, but migrate old SmartSpend data
         // for the same authenticated user when necessary.
         const currentLoans = parseLoans(localStorage.getItem(key));
         const legacyLoans =

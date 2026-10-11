@@ -9,7 +9,7 @@ type ProfileData = {
   monthlyIncome: number;
 };
 
-const PROFILE_KEY_PREFIX = 'finpilot_profile';
+const PROFILE_KEY_PREFIX = 'StudentSpend_profile';
 
 function getLocalDateProfileKey(userId: string) {
   return `${PROFILE_KEY_PREFIX}_${userId}`;

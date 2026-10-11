@@ -1,7 +1,7 @@
 import { Moon, Sun } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
-const THEME_KEY = 'finpilot_theme';
+const THEME_KEY = 'StudentSpend_theme';
 
 export function ThemeToggle() {
   const [light, setLight] = useState(false);

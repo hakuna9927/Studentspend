@@ -16,7 +16,7 @@ app.use('/api/transactions', transactionRoutes);
 
 app.get("/", (req, res) => {
   res.json({
-    message: "FinPilot API is running",
+    message: "StudentSpend API is running",
   });
 });
 

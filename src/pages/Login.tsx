@@ -126,7 +126,7 @@ export function LoginPage() {
             </div>
 
             <h1 className="text-2xl font-bold text-white mt-4">
-              Welcome to FINPILOT
+              Welcome to StudentSpend
             </h1>
 
             <p className="text-sm text-gray-500 mt-1">
@@ -169,7 +169,7 @@ export function LoginPage() {
 
               <p className="text-[10px] text-gray-500 mt-2">
                 If this is a redirect error, make sure
-                your deployed FinPilot URL is added to
+                your deployed StudentSpend URL is added to
                 Supabase Authentication URL Configuration.
               </p>
             </div>
@@ -177,7 +177,7 @@ export function LoginPage() {
 
           {/* Terms */}
           <p className="text-[10px] text-gray-600 text-center mt-6 leading-relaxed">
-            By continuing, you agree to use FINPILOT
+            By continuing, you agree to use StudentSpend
             responsibly for your personal financial
             management.
           </p>

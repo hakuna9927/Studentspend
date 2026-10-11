@@ -105,7 +105,7 @@ export function InsightsPage() {
     useState<SelectedPeriod>(() => {
       try {
         const saved = localStorage.getItem(
-          'finpilot_selected_period'
+          'StudentSpend_selected_period'
         );
 
         if (saved) {
@@ -146,7 +146,7 @@ export function InsightsPage() {
 
   useEffect(() => {
     localStorage.setItem(
-      'finpilot_selected_period',
+      'StudentSpend_selected_period',
       JSON.stringify(selectedPeriod)
     );
   }, [selectedPeriod]);
@@ -168,7 +168,7 @@ export function InsightsPage() {
         }
 
         const response = await fetch(
-          `https://finpilot-backend-23iz.onrender.com/api/transactions?userId=${encodeURIComponent(
+          `https://StudentSpend-backend-23iz.onrender.com/api/transactions?userId=${encodeURIComponent(
             user.id
           )}`
         );

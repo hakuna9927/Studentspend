@@ -118,7 +118,7 @@ export function AppLayout() {
 
       try {
         const savedTheme = localStorage.getItem(
-          `finpilot_theme_${nextUserId}`
+          `StudentSpend_theme_${nextUserId}`
         );
 
         setTheme(
@@ -235,7 +235,7 @@ export function AppLayout() {
       if (userId) {
         try {
           localStorage.setItem(
-            `finpilot_theme_${userId}`,
+            `StudentSpend_theme_${userId}`,
             nextTheme
           );
         } catch (storageError) {
@@ -506,7 +506,7 @@ export function AppLayout() {
                 }
               `}
             >
-              FINPILOT
+              StudentSpend
             </span>
 
           </div>
@@ -793,7 +793,7 @@ export function AppLayout() {
                 }
               `}
             >
-              FINPILOT
+              StudentSpend
             </span>
 
           </div>

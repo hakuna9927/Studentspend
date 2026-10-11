@@ -13,8 +13,8 @@ type SettingsData = {
   darkMode: boolean;
 };
 
-const SETTINGS_KEY_PREFIX = 'finpilot_settings';
-const THEME_KEY_PREFIX = 'finpilot_theme';
+const SETTINGS_KEY_PREFIX = 'StudentSpend_settings';
+const THEME_KEY_PREFIX = 'StudentSpend_theme';
 const LEGACY_SETTINGS_KEY_PREFIX = 'smartspend_settings';
 const LEGACY_THEME_KEY_PREFIX = 'smartspend_theme';
 
@@ -278,7 +278,7 @@ export function SettingsPage() {
           </h1>
 
           <p className="text-sm text-gray-500 mt-0.5">
-            Manage your FinPilot preferences
+            Manage your StudentSpend preferences
           </p>
         </div>
       </Reveal>

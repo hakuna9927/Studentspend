@@ -70,7 +70,7 @@ const [selectedPeriod] =
   useState<SelectedPeriod>(() => {
     try {
       const saved = localStorage.getItem(
-        'finpilot_selected_period'
+        'StudentSpend_selected_period'
       );
 
       if (saved) {
@@ -124,7 +124,7 @@ useEffect(() => {
       }
 
       const response = await fetch(
-        `https://finpilot-backend-23iz.onrender.com/api/transactions?userId=${encodeURIComponent(
+        `https://StudentSpend-backend-23iz.onrender.com/api/transactions?userId=${encodeURIComponent(
           user.id
         )}`
       );

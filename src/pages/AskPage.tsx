@@ -68,7 +68,7 @@ type Analysis = {
   aiLoading?: boolean;
 };
 
-const API_URL = 'https://finpilot-backend-23iz.onrender.com';
+const API_URL = 'https://StudentSpend-backend-23iz.onrender.com';
 
 const CATEGORIES: Category[] = [
   'Food',
@@ -218,7 +218,7 @@ export function AskPage() {
     useState<SelectedPeriod>(() => {
       try {
         const saved = localStorage.getItem(
-          'finpilot_selected_period'
+          'StudentSpend_selected_period'
         );
 
         if (saved) {
@@ -316,7 +316,7 @@ const response = await fetch(
 
   useEffect(() => {
     localStorage.setItem(
-      'finpilot_selected_period',
+      'StudentSpend_selected_period',
       JSON.stringify(selectedPeriod)
     );
   }, [selectedPeriod]);
@@ -987,7 +987,7 @@ const response = await fetch(
                   </h2>
 
                   <p className="text-xs text-gray-500 mt-0.5">
-                    Tell FinPilot what you are planning to buy
+                    Tell StudentSpend what you are planning to buy
                   </p>
 
                 </div>
@@ -1336,7 +1336,7 @@ function AnalysisResult({
           />
 
           <span className="text-xs uppercase tracking-[0.15em] font-semibold text-emerald-400">
-            FinPilot Analysis
+            StudentSpend Analysis
           </span>
 
         </div>
@@ -1435,7 +1435,7 @@ function AnalysisResult({
                 <div className="flex items-center gap-2 mb-2">
                   <Sparkles className="w-4 h-4 text-emerald-400" />
                   <p className="text-sm font-medium text-white">
-                    FinPilot is thinking through this purchase...
+                    StudentSpend is thinking through this purchase...
                   </p>
                   <RefreshCw className="w-3.5 h-3.5 text-emerald-400 animate-spin" />
                 </div>
